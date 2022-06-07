@@ -1,8 +1,8 @@
-#Pyspark assignment 
+***Pyspark assignment***
 
-#Deploy a Spark Cluster (standalone, single node is quite sufficient) in local machine
+***Deploy a Spark Cluster (standalone, single node is quite sufficient) in local machine***
 
-Pyspark Installlation Guides
+***Pyspark Installlation Guides***
 
 Install Apache Spark on Windows
 
@@ -50,18 +50,23 @@ Step 8 : pip Install pyspark
 Step 10 : Run Spark code
 
 
-##Creating a Notebook tp Analyse the data-set
+***Creating a Notebook tp Analyse the data-set***
 
 
 #Load the dataset from the link
 (https://www.kaggle.com/promptcloud/careerbuilder-job-listing-2020) using Spark inside the job
 
 
-#Apply the following transformation on top of the data : 
+***Apply the following transformation on top of the data***
     
-*calculate number of jobs posted on daily basis, per each city*
-*calculate average salary per job title and state
-*identify the top 10 most active companies by number of positions opened
-*create a UDF function to clean job description from HTML code contained inside analyze and comment on the performance of the UDF function.
-*How the performance could be improved
-*Export the results of each analyses to a CSV file
+#1 calculate number of jobs posted on daily basis, per each city
+
+#2 calculate average salary per job title and state
+
+#3 identify the top 10 most active companies by number of positions opened
+
+#4 create a UDF function to clean job description from HTML code contained inside analyze and comment on the performance of the UDF function.
+
+#5 How the performance could be improved
+
+***Export the results of each analyses to a CSV file***
